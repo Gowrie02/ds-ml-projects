@@ -45,6 +45,4 @@ print(model.score(xtest,ytest))
 #features = [[TV, Radio, Newspaper]]
 features = np.array([[230.1, 37.8, 69.2]])
 print(model.predict(features))
-features = np.array([[230.1, 37.8, 69.2]])
-print(model.predict(features))
 
